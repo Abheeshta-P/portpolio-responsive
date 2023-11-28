@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    line-height: calc(1em+0.8rem) ;
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+   
+}
+html{
+    font-family: 'General Sans', sans-serif;
+}
+
+img,picture,video,canvas,svg{
+    display: block;
+    max-width: 100%;
+    user-select: none;
+}
+button{
+    display: inline-block;
+    cursor: pointer;
+    border: none;
+    background: none;
+    padding: 0;
+}
