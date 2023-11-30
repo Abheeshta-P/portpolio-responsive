@@ -1,3 +1,35 @@
+:root{
+    --clr-dark: #090909;
+    --clr-light: #f4f4f5;
+    --clr-zinc400: #a1a1aa;
+    --clr-zinc600: #52525b;
+    --clr-zinc800: #27272a;
+    --clr-blue: #054ae0;
+    --clr-blue-headding:#7a9add;
+    --clr-pink-orange:#e11d48;
+    --clr-orange:#ea580c;
+
+    /* blue rgb - 	rgb(5, 74, 224) */
+    /* orange rgb - 	rgb(234, 88, 12) */
+
+    /*size*/
+    --size-xxs: 0.8rem;
+    --size-xs: 1.2rem;
+    --size-s: 1.4rem;
+    --size-base: 1.6rem;
+    --size-lg: 1.8rem;
+    --size-xl: 2rem;
+    --size-2xl: 2.4rem;
+    --size-3xl: 3rem;
+    --size-4xl: 3.6rem;
+    --size-5xl: 4.8rem;
+    --size-6xl: 6rem;
+    --size-7xl: 7.2rem;
+    --size-8xl: 9.6rem;
+    --size-9xl: 12.8rem;
+    --size-10xl: 16rem;
+}
+
 *{
     margin: 0;
     line-height: calc(1em+0.8rem) ;
@@ -5,10 +37,11 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
-   
-}
-html{
     font-family: 'General Sans', sans-serif;
+}
+body{
+   background-color: var(--clr-dark);
+   color: var(--clr-light);
 }
 
 img,picture,video,canvas,svg{
@@ -22,4 +55,14 @@ button{
     border: none;
     background: none;
     padding: 0;
+    color: inherit;
+}
+a{
+    color: var(--clr-blue);
+}
+strong{
+    color: var(--clr-orange);
+}
+p{
+    font-size: 1.5rem;
 }
