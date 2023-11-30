@@ -1,49 +1,18 @@
-/* xs
-@media (width>=475px){
-    
-}
-
-/*sm
-@media (min-width:640px){
-   
-}
-
-/*md
-@media (min-width:768px){
-   
-}
-
-/*lg
-@media (min-width:1024px){
-   
-}
-
-/*xl
-@media (min-width:1280px){
-    
-}
-
-/*2xl
-@media (min-width:1536px){
-   
-} */
-
-
 .btn{
-    background-color: var(--clr-blue);
+    background-color: var(--clr-orange);
     display: block;
     font-weight: 600;
     text-decoration: none;
     letter-spacing: -0.02em;
     color: var(--clr-light);
-    padding: 0.5em 0.9em;
+    padding: 0.7em 1em;
     border-radius: 6px;
-    box-shadow: 0 15px 20px rgba(5, 74, 224,0.5),5px 0 10px rgba(5, 74, 224,0.5),0 0 10px rgb(5, 74, 224);
+    box-shadow: 0 10px 20px  rgba(234, 88, 12,0.5),5px 0 10px  rgba(234, 88, 12,0.5),0 0 5px rgb(234, 88, 12);
     transition: transform 0.15s,scale 0.15s;
 }
 .btn:hover{
     transform: translateY(-3px) scale(1.02);
-    box-shadow: 0 15px 15px rgba(5, 74, 224,0.5),10px 0 15px rgba(5, 74, 224,0.5),0 0 15px rgb(5, 74, 224);
+    box-shadow: 0 10px 15px rgba(234, 88, 12,0.5),10px 0 10px  rgba(234, 88, 12,0.5),0 0 10px rgb(234, 88, 12);
 }
 .container{
    width: 100%;
@@ -51,7 +20,7 @@
    margin-right: auto;
    padding-left: 1rem;
    padding-right: 1rem;
-   border: 1px solid red;
+   /* border: 1px solid red; */
 }
 .section{
     margin-top: 5rem;

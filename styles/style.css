@@ -1,10 +1,11 @@
 :root{
     --clr-dark: #090909;
     --clr-light: #f4f4f5;
+    --clr-zinc300: #d4d4d8;
     --clr-zinc400: #a1a1aa;
     --clr-zinc600: #52525b;
     --clr-zinc800: #27272a;
-    --clr-blue: #054ae0;
+    --clr-blue: #417bf9;
     --clr-blue-headding:#7a9add;
     --clr-pink-orange:#e11d48;
     --clr-orange:#ea580c;
@@ -14,7 +15,7 @@
 
     /*size*/
     --size-xxs: 0.8rem;
-    --size-xs: 1.2rem;
+    --size-xs: 1.3rem;
     --size-s: 1.4rem;
     --size-base: 1.6rem;
     --size-lg: 1.8rem;
@@ -58,10 +59,10 @@ button{
     color: inherit;
 }
 a{
-    color: var(--clr-blue);
+    color: var(--clr-zinc300);
 }
 strong{
-    color: var(--clr-orange);
+    color: var(--clr-blue);
 }
 p{
     font-size: 1.5rem;
